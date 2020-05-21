@@ -6,3 +6,4 @@ This project is part of my coursework under [Udacity's Cloud DevOps Engineer Nan
 - Load Balancer: receives requests from the web and distributes to Web Servers.
 - AutoScaling Group: Based on incoming requests, spins up and/or kills web servers. Performs health check on web servers and replaces unhealthy servers.
 - Launch Configuration: Lists the specifications for the web servers, including a single-run init script that more precisely sets up the software on the web servers.
+- Security Groups: Essentially act as firewalls to determine what type of traffic is allowed on each resource.
